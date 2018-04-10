@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Our team was inspired by the vision of [Bret Victor](http://worrydream.com), that we need a new [humane dynamic medium](https://vimeo.com/115154289) to unlock the full potential of computing for enhancing our capabilities of thinking, learning and communicating. With [Dynamicland](https://dynamicland.org) they've created a compelling prototype to explore how this new medium could look. The goal of Pyxels is to recreate a similar smaller scale setup at the Media University Stuttgart. We will use the open source library [paper programs](https://paperprograms.org/) as the basis of our installation. Paper programs implements a limited version of the interaction model of Dynamicland running inside of a web browser.
+Our team was inspired by the vision of [Bret Victor](http://worrydream.com), that we need a new [humane dynamic medium](https://vimeo.com/115154289) to unlock the full potential of computing for enhancing our capabilities of thinking, learning and communicating. With [Dynamicland](https://dynamicland.org) they've created a compelling prototype to explore how this new medium could look. The goal of Pyxels is to recreate a similar smaller scale setup at the [Media University Stuttgart](https://www.hdm-stuttgart.de/english). We will use the open source library [paper programs](https://paperprograms.org/) as the basis of our installation. Paper programs implements a limited version of the interaction model of Dynamicland running inside of a web browser.
 
 ##  Dynamicland
 
