@@ -28,5 +28,5 @@ Modify the space name in the config in `scripts/init-db/config`. This should be 
 In the top level directory of this repo execute this script to initialize the papers
 
 ```
-node scripts/init-db/index.js
+node ./scripts/init-db/index.js
 ```
