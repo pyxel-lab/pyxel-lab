@@ -1,0 +1,15 @@
+{
+  "name": "init-db",
+  "version": "1.0.0",
+  "description": "intitalize a Paper Programs space",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Sonnentag <Paul.Sonnentag@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "knex": "^0.14.5",
+    "pg": "^7.4.1"
+  }
+}
