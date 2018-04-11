@@ -11,7 +11,7 @@ importScripts('paper.js');
   // Repeat every 100 milliseconds.
   setInterval(async () => {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
-    ctx.font = `${Math.min(Math.max(size * 20, 10), 40)}px sans-serif`;
+    ctx.font = '20px sans-serif';
     ctx.textAlign = 'center';
     ctx.fillStyle = 'red';
     ctx.fillText(`#${paperNumber}`, canvas.width / 2, canvas.height / 2);
