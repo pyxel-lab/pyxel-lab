@@ -10,23 +10,24 @@ clone repo
 git clone https://github.com/pyxel-lab/paperprograms.git
 ```
 
+init environment (this is necessary to set the correct database)
+
+```
+source init-environment.sh
+```
+
+> This might not work if you haven't been added to the heroku app contact @paulsonnentag to
+
+
 start server by running this command in the paperprogramms directory
 
 ```
 npm run dev
 ```
 
-Modify the space name in the config in `scripts/init-db/config`. This should be the value you see on the `camera.html` page.
-
-```JavaScript
-{
-  "spaceName": "Your space name",
-  "paperNumbers": ["2", "257", "426", "757"]
-}
+If there are no programs in the space there is probably a problem with the database. Verify that the environment variable DATABASE_URL is set:
+```
+echo $DATABASE_URL
 ```
 
-In the top level directory of this repo execute this script to initialize the papers
-
-```
-node ./scripts/init-db/index.js
-```
+> Should return something like: postgres://......
